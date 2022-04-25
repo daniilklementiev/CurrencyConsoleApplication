@@ -5,8 +5,6 @@ using System.IO;
 using MyLibrary;
 using System.Text;
 
-
-
 namespace CurrencyApp
 {
     class Program
@@ -88,16 +86,9 @@ namespace CurrencyApp
                     Console.WriteLine("Введена невiрна валюта.");
                 }
             }
-            
-            
-            
-
 
             _ = Console.ReadLine();
 
-
-
         }
-
     }
 }

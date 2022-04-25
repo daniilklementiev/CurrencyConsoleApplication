@@ -10,7 +10,6 @@ namespace MyLibrary
 {
     public class CurrencyRateNbu : ICloneable
     {
-
         // Currency code (36 - AUD)
         public int code { get; set; }
         // Currency name

@@ -5,13 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-
 namespace MyLibrary
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public class CurrencyRate : ICloneable
 	{
-
         // Currency code
         [JsonProperty(PropertyName = "r030")]
 		public int code { get; set; }
@@ -38,7 +36,6 @@ namespace MyLibrary
 			string[] arr = new String[] { code.ToString(), txt, rate.ToString(), cc };
 			return arr;
 		}
-
         
         public object Clone()
         {
