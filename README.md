@@ -5,7 +5,7 @@ ____
 ____
 In this example we use :
 ======
->**a small menu where you can**: 
+>**A small menu where you can**: 
 > >:white_check_mark: Find currency and get the rate of this currency to hryvnia
 > >
 > >:white_check_mark: A small currency calculator
